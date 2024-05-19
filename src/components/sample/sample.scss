@@ -1,0 +1,15 @@
+@import '../../index.scss';
+
+.sample-container{
+    grid-area: sample;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    img{
+       width: clamp(200px,25vw,450px);
+       transform: rotate(-9deg);
+    }
+}

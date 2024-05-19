@@ -1,0 +1,19 @@
+@import '../../index.scss';
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul{
+        display: flex;
+
+        li a {
+            display: inline-block;
+            text-transform: uppercase;
+            color: $menu-link;
+            font-weight: 700;
+            margin-left: 60px;
+        }
+    }
+}

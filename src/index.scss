@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+
+$bg-color : #F7EFED;
+$title: #000000;
+$menu-link: #4A4847;
+$paragrafo: #747272;
+
+// Cores menu
+$flamin-hot : #232323;
+$cheese : #FFD362;
+$tomato : #EF6161;
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: "Amiko", sans-serif;
+  background: $bg-color;
+  font-size: 16px;
+}
