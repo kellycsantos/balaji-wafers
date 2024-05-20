@@ -7,9 +7,10 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    padding-inline: 150px;
 
     img{
-       width: clamp(200px,25vw,450px);
+       width: clamp(200px,20vw,400px);
        transform: rotate(-8.5deg);
     }
 }
